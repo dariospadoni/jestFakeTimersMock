@@ -1,5 +1,3 @@
-// jest-dom adds custom jest matchers for asserting on DOM nodes.
-// allows you to do things like:
-// expect(element).toHaveTextContent(/react/i)
-// learn more: https://github.com/testing-library/jest-dom
-import '@testing-library/jest-dom';
+jest.useFakeTimers("modern");
+// comment the line below and the test will use the real date
+jest.setSystemTime(new Date("2021-02-18"));
